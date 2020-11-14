@@ -1,0 +1,14 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    "editor.fontSize": 16,
+    "javascript.format.enable": false,
+    "html.format.enable": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": false,
+    "vim.useCtrlKeys": false,
+    "vue3snippets.enable-compile-vue-file-on-did-save-code": false
+}
