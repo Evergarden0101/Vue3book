@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { computed, toRefs, reactive, ref, watch } from "vue";
+import { computed, toRefs, reactive, ref} from "vue";
 
 export default {
   setup() {

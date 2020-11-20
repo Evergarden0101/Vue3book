@@ -1,8 +1,19 @@
 <script>
+watimport { onMounted, onUpdated, onUnmounted } from "vue";
+
 export default {
   setup(props, context) {
-      console.log(props.arg1)
-      console.log(context)
+    console.log(props.arg1);
+    console.log(context);
+    onMounted(() => {
+      console.log('mounted!')
+    })
+    onUpdated(() => {
+      console.log('updated!')
+    })
+    onUnmounted(() => {
+      console.log('unmounted!')
+    })
   },
 
   props: {
@@ -19,5 +30,3 @@ export default {
   // }
 };
 </script>
-
-
