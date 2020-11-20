@@ -1,5 +1,5 @@
 <script>
-watimport { onMounted, onUpdated, onUnmounted } from "vue";
+import { onMounted, onUpdated, onUnmounted } from 'vue';
 
 export default {
   setup(props, context) {
