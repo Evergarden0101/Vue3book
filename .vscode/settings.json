@@ -6,7 +6,7 @@
     "html.format.enable": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "octref.vetur"
     },
     "editor.formatOnSave": false,
     "vim.useCtrlKeys": false,
