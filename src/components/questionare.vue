@@ -10,8 +10,9 @@
       <label for="男">男</label>
       <input type="radio" id="女" value="女" v-model="sex" />
       <label for="女">女</label>
-      <h6>性别: {{ sex }}</h6>
     </div>
+    <h6>性别: {{ sex }}</h6>
+    <br />
 
     <div class="mulChoice">
       <h5>选择语言</h5>
@@ -26,8 +27,9 @@
         v-model="checkedLang"
       />
       <label for="JavaScript">JavaScript</label>
-      <h6>语言: {{ checkedLang }}</h6>
     </div>
+    <h6>语言: {{ checkedLang }}</h6>
+    <br />
 
     <select v-model="selected" class="select">
       <option disabled selected value style="display: none">请选择框架</option>
@@ -43,7 +45,7 @@
     ></textarea>
     <br />
     <h6>备注:</h6>
-    <p style="white-space: pre-line">{{ mulMessage }}</p>
+    <p style="white-space: pre-line;margin-top: -20px">{{ mulMessage }}</p>
     <br />
   </div>
 </template>
@@ -76,24 +78,24 @@ export default {
 }
 .sex {
   width: 10%;
-  height: 140px;
+  height: 100px;
   position: relative;
   left: 45%;
-  margin-bottom: 30px;
+  margin-bottom: -10px;
   border: 2px solid;
   border-radius: 6px;
 }
 .mulChoice {
   width: 20%;
-  height: 140px;
+  height: 100px;
   position: relative;
   left: 40%;
-  margin-bottom: 30px;
+  margin-bottom: -10px;
   border: 2px solid;
   border-radius: 6px;
 }
 .select {
-  height: 20px;
+  height: 30px;
   width: 8%;
   margin-bottom: -20px;
   border: 2px solid;
