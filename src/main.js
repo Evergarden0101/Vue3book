@@ -8,6 +8,7 @@ import Watch from './components/watch.vue'
 import Vmodel from './components/vmodel.vue'
 import Questionare from './components/questionare.vue'
 import Vif from './components/vif.vue'
+import Authen from './components/authen.vue'
 
 //createApp(App).mount('#app')
 //createApp(Data).mount('#app')
@@ -16,6 +17,7 @@ import Vif from './components/vif.vue'
 //createApp(Watch).mount('#app')
 //createApp(Vmodel).mount('#app')
 //createApp(Questionare).mount('#app')
-createApp(Vif).mount('#app')
+//createApp(Vif).mount('#app')
+createApp(Authen).mount('#app')
 
 
