@@ -14,7 +14,9 @@ import './index.css'
 // import SortForList from './components/sortForList.vue'
 // import Posts from './components/posts.vue'
 // import VForRef from './components/vForRef.vue'
-import HtmlClass from './components/htmlClass.vue'
+// import HtmlClass from './components/htmlClass.vue'
+// import BindStyle from './components/bindStyle.vue'
+import Filter from './components/filter.vue'
 
 //createApp(App).mount('#app')
 //createApp(Data).mount('#app')
@@ -30,6 +32,8 @@ import HtmlClass from './components/htmlClass.vue'
 // createApp(SortForList).mount('#app')
 // createApp(Posts).mount('#app')
 // createApp(VForRef).mount('#app')
-createApp(HtmlClass).mount('#app')
+// createApp(HtmlClass).mount('#app')
+// createApp(BindStyle).mount('#app')
+createApp(Filter).mount('#app')
 
 
