@@ -12,7 +12,9 @@ import './index.css'
 // import Vfor from './components/vfor.vue'
 // import ChangeForList from './components/changeForList.vue'
 // import SortForList from './components/sortForList.vue'
-import Posts from './components/posts.vue'
+// import Posts from './components/posts.vue'
+// import VForRef from './components/vForRef.vue'
+import HtmlClass from './components/htmlClass.vue'
 
 //createApp(App).mount('#app')
 //createApp(Data).mount('#app')
@@ -26,6 +28,8 @@ import Posts from './components/posts.vue'
 //createApp(Vfor).mount('#app')
 //createApp(ChangeForList).mount('#app')
 // createApp(SortForList).mount('#app')
-createApp(Posts).mount('#app')
+// createApp(Posts).mount('#app')
+// createApp(VForRef).mount('#app')
+createApp(HtmlClass).mount('#app')
 
 
