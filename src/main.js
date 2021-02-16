@@ -18,7 +18,8 @@ import './index.css'
 // import BindStyle from './components/bindStyle.vue'
 // import Filter from './components/filter.vue'
 // import Transition from './components/transition.vue'
-import IoTrans from './components/ioTrans.vue'
+// import IoTrans from './components/ioTrans.vue'
+import Animation from './components/animation.vue'
 
 //createApp(App).mount('#app')
 //createApp(Data).mount('#app')
@@ -38,6 +39,7 @@ import IoTrans from './components/ioTrans.vue'
 // createApp(BindStyle).mount('#app')
 // createApp(Filter).mount('#app')
 // createApp(Transition).mount('#app')
-createApp(IoTrans).mount('#app')
+// createApp(IoTrans).mount('#app')
+createApp(Animation).mount('#app')
 
 
