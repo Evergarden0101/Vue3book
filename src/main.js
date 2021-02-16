@@ -17,7 +17,8 @@ import './index.css'
 // import HtmlClass from './components/htmlClass.vue'
 // import BindStyle from './components/bindStyle.vue'
 // import Filter from './components/filter.vue'
-import Transition from './components/transition.vue'
+// import Transition from './components/transition.vue'
+import IoTrans from './components/ioTrans.vue'
 
 //createApp(App).mount('#app')
 //createApp(Data).mount('#app')
@@ -36,6 +37,7 @@ import Transition from './components/transition.vue'
 // createApp(HtmlClass).mount('#app')
 // createApp(BindStyle).mount('#app')
 // createApp(Filter).mount('#app')
-createApp(Transition).mount('#app')
+// createApp(Transition).mount('#app')
+createApp(IoTrans).mount('#app')
 
 
