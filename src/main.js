@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import { createApp, Transition } from 'vue'
 import App from './App.vue'
 import './index.css'
 // import Data from './Data.vue'
@@ -19,7 +19,9 @@ import './index.css'
 // import Filter from './components/filter.vue'
 // import Transition from './components/transition.vue'
 // import IoTrans from './components/ioTrans.vue'
-import Animation from './components/animation.vue'
+// import Animation from './components/animation.vue'
+// import TransMode from './components/transMode.vue'
+import ShiftCard from './components/shiftCard.vue'
 
 //createApp(App).mount('#app')
 //createApp(Data).mount('#app')
@@ -40,6 +42,8 @@ import Animation from './components/animation.vue'
 // createApp(Filter).mount('#app')
 // createApp(Transition).mount('#app')
 // createApp(IoTrans).mount('#app')
-createApp(Animation).mount('#app')
+// createApp(Animation).mount('#app')
+// createApp(TransMode).mount('#app')
+createApp(ShiftCard).mount('#app')
 
 
