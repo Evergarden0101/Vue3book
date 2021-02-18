@@ -3,51 +3,51 @@
     <h3>划过图片</h3>
     <main>
       <app-child>
-        <img
+        <!-- <img
           src="https://images.unsplash.com/photo-1520182205149-1e5e4e7329b4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
           alt="image of a woman on a train"
-        />
+        /> -->
       </app-child>
       <app-child>
-        <img
+        <!-- <img
           src="https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
           alt="drawing of a woman sharing soda with a zombie"
-        />
+        /> -->
       </app-child>
     </main>
   </div>
 </template>
 
 <script>
-export default {
-const app = Vue.createApp({});
+// export default {
+// const app = Vue.createApp({});
 
-app.component("app-child", {
-  template: `<div class="img-contain">
-    <div class="overlay">
-      <p class="overlay-text">I don't like this one</p>
-      <button @click="toggleShow">Replace!</button>
-    </div>
-    <transition name="flip" mode="out-in">
-      <div v-if="!isShowing">
-        <slot></slot>
-      </div>
-      <img v-else src='https://images.unsplash.com/flagged/photo-1563248101-a975e9a18cc6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
-    </transition>
-  </div>`,
-  data() {
-    return {
-      isShowing: false };
+// app.component("app-child", {
+//   template: `<div class="img-contain">
+//     <div class="overlay">
+//       <p class="overlay-text">I don't like this one</p>
+//       <button @click="toggleShow">Replace!</button>
+//     </div>
+//     <transition name="flip" mode="out-in">
+//       <div v-if="!isShowing">
+//         <slot></slot>
+//       </div>
+//       <img v-else src='https://images.unsplash.com/flagged/photo-1563248101-a975e9a18cc6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+//     </transition>
+//   </div>`,
+//   data() {
+//     return {
+//       isShowing: false };
 
-  },
-  methods: {
-    toggleShow() {
-      this.isShowing = !this.isShowing;
-    } } });
+//   },
+//   methods: {
+//     toggleShow() {
+//       this.isShowing = !this.isShowing;
+//     } } });
 
 
 
-}
+// }
 </script>
 
 <style>

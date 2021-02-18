@@ -6,10 +6,13 @@
     "build": "vite build"
   },
   "dependencies": {
+    "lodash": "^4.17.20",
+    "mathjs": "^9.2.0",
     "vue": "^3.0.2"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.8",
-    "@vue/compiler-sfc": "^3.0.2"
+    "@vue/compiler-sfc": "^3.0.2",
+    "babel-plugin-lodash": "^3.3.4",
+    "vite": "^1.0.0-rc.8"
   }
 }

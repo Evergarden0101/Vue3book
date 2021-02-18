@@ -21,7 +21,9 @@ import './index.css'
 // import IoTrans from './components/ioTrans.vue'
 // import Animation from './components/animation.vue'
 // import TransMode from './components/transMode.vue'
-import ShiftCard from './components/shiftCard.vue'
+// import ShiftCard from './components/shiftCard.vue'
+// import ListTrans from './components/listTrans.vue'
+import ShiftList from './components/shiftList.vue'
 
 //createApp(App).mount('#app')
 //createApp(Data).mount('#app')
@@ -44,6 +46,8 @@ import ShiftCard from './components/shiftCard.vue'
 // createApp(IoTrans).mount('#app')
 // createApp(Animation).mount('#app')
 // createApp(TransMode).mount('#app')
-createApp(ShiftCard).mount('#app')
+// createApp(ShiftCard).mount('#app')
+// createApp(ListTrans).mount('#app')
+createApp(ShiftList).mount('#app')
 
 
