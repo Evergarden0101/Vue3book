@@ -23,7 +23,9 @@ import './index.css'
 // import TransMode from './components/transMode.vue'
 // import ShiftCard from './components/shiftCard.vue'
 // import ListTrans from './components/listTrans.vue'
-import ShiftList from './components/shiftList.vue'
+// import ShiftList from './components/shiftList.vue'
+// import Component from './components/component.vue'
+import ComponentEvent from './components/componentEvent.vue'
 
 //createApp(App).mount('#app')
 //createApp(Data).mount('#app')
@@ -48,6 +50,8 @@ import ShiftList from './components/shiftList.vue'
 // createApp(TransMode).mount('#app')
 // createApp(ShiftCard).mount('#app')
 // createApp(ListTrans).mount('#app')
-createApp(ShiftList).mount('#app')
+// createApp(ShiftList).mount('#app')
+// createApp(Component).mount('#app')
+createApp(ComponentEvent).mount('#app')
 
 
