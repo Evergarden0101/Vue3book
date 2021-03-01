@@ -1,6 +1,6 @@
-import { createApp, Transition } from 'vue'
-import App from './App.vue'
-import './index.css'
+import { createApp, Transition } from "vue";
+import App from "./App.vue";
+import "./index.css";
 // import Data from './Data.vue'
 // import Insert from './Insert.vue'
 // import Computed from './components/Compute.vue'
@@ -25,7 +25,9 @@ import './index.css'
 // import ListTrans from './components/listTrans.vue'
 // import ShiftList from './components/shiftList.vue'
 // import Component from './components/component.vue'
-import ComponentEvent from './components/componentEvent.vue'
+// import ComponentEvent from './components/componentEvent.vue'
+// import Slotbak from './components/slotbak.vue'
+import DynaComp from './components/dynaComp.vue'
 
 //createApp(App).mount('#app')
 //createApp(Data).mount('#app')
@@ -52,6 +54,6 @@ import ComponentEvent from './components/componentEvent.vue'
 // createApp(ListTrans).mount('#app')
 // createApp(ShiftList).mount('#app')
 // createApp(Component).mount('#app')
-createApp(ComponentEvent).mount('#app')
-
-
+// createApp(ComponentEvent).mount('#app')
+// createApp(Slotbak).mount('#app')
+createApp(DynaComp).mount('#app')
