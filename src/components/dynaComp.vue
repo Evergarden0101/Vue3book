@@ -9,12 +9,16 @@
       {{ tab }}
     </button>
 
-    <component v-bind:is="currentTabComponent" class="tab"></component>
+    <!-- <component v-bind:is="currentTabComponent" class="tab"></component> -->
+
+    <keep-alive>
+      <component :is="currentTabComponent"></component>
+    </keep-alive>
   </div>
 </template>
 
 <script>
-import { computed,reactive, toRefs } from "vue";
+import { computed, reactive, toRefs } from "vue";
 import TabPosts from "./tabPosts.vue";
 import TabHome from "./tabHome.vue";
 import TabLikes from "./tabLikes.vue";
@@ -56,14 +60,14 @@ export default {
 }
 
 .tab-button {
-  padding: 6px 10px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  padding: 12px 20px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   border: 1px solid #ccc;
   cursor: pointer;
   background: #f0f0f0;
-  margin-bottom: -1px;
-  margin-right: -1px;
+  margin-bottom: -2px;
+  margin-right: -2px;
 }
 .tab-button:hover {
   background: #e0e0e0;
@@ -73,6 +77,6 @@ export default {
 }
 .demo-tab {
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 20px;
 }
 </style>
